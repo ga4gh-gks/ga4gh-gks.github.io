@@ -77,24 +77,19 @@
 <!-- ######################################################################  -->
 
 {% if site.categories contains "news" %}
+      <h4><a href="/news.html">News</a></h4>
   {% if page.category contains "news" %}
-
 <!-- All matching post -->
-        <h4>News</h4>
     {% for post in site.categories.news %}
       <div class="sublink" >
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
     {% endfor %}
-  {% else %}
-<!-- This grabs the first matching post -->
-      <h4><a href="{{ /news.html }}">News</a></h4>
-
   {% endif %}
 {% endif %}
 
 <!-- ######################################################################  -->
-<!--                           / Blog (posts)                                -->
+<!--                           / News (posts)                                -->
 <!-- ######################################################################  -->
 
 <!-- ######################################################################  -->
@@ -102,18 +97,13 @@
 <!-- ######################################################################  -->
 
 {% if site.categories contains "howto" %}
+      <h4><a href="/howto.html">News</a></h4>
   {% if page.category contains "howto" %}
-
-      <h4>Examples &amp; Guides</h4>
     {% for post in site.categories.howto %}
       <div class="sublink" >
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
     {% endfor %}
-  {% else %}
-  <!-- This grabs the first matching post -->
-      <h4><a href="{{ site.categories.howto.first.url }}">Examples &amp; Guides</a></h4>
-
   {% endif %}
 {% endif %}
 
@@ -127,9 +117,7 @@
       <h4><a href="https://github.com/ga4gh-gks/">GA4GH-GKS Repositories</a></h4>
 
       <h4>Related Projects</h4>
-
 <!-- Moving away from the standard template to a custom/static version -->
-
       <div class="sublink">
         <a href="https://github.com/ga4gh/">GA4GH Projects</a>
       </div>
