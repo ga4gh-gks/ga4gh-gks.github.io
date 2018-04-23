@@ -1,12 +1,13 @@
 ---
 title: "Howto - Markdown & Jekyll"
 layout: default
+permalink: /howto/markdown_jekyll.html
 date: 2018-04-20
 category:
   - howto
 ---
 
-### Welcome to GitHub Pages
+### Editing to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ga4gh-gks/ga4gh-gks.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

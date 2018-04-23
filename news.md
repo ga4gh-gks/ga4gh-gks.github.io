@@ -3,7 +3,7 @@ title:  "GA4GH:GKS News"
 layout: default
 permalink: /news.html
 category:
-  -
+  - news
 ---
 
 ## News
@@ -14,7 +14,7 @@ category:
 <h3 id="y{{item.date | date: "%Y"}}">{{ currentdate }}</h3>
    {% assign date = currentdate %}
   {% endif %}
-<div class="excerpt" style="margin-bottom: 20px;">
+<div class="excerpt">
 {{ item.excerpt }}
 <p>{{ item.date | date: "%Y-%m-%d" }}: <a href="{{ item.url | relative_url }}">more ...</a></p>
 </div>
