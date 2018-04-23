@@ -57,7 +57,7 @@
     section div.excerpt {
       display: block;
       padding: 3px;
-      margin-bottom: 12px;
+      margin-bottom: 5px;
       background-color: #fcfcfc;
       font-size: 0.8em;
       border-radius: 10px;
@@ -132,7 +132,9 @@
 
 {{ content }}
 {% if page.category contains "news" %}
+  {% if page.date %}
   <h5>{{ page.date | date_to_string }}</h5>
+  {% endif %}
 {% endif %}
 
     </section>
