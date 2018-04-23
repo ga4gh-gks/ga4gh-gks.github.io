@@ -3,7 +3,7 @@ title:  "Variant Representation"
 layout: default
 permalink: /variant_representation.html
 category:
-  -
+  - variant_representation
 ---
 
 ## GA4GH::GKS Variant Representation
