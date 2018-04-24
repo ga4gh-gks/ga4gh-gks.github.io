@@ -15,4 +15,5 @@ category:
 * Melissa Konopko
 * Larry Babb
 * Michael Baudis ([UZH](http://www.imls.uzh.ch/en/research/baudis/) & [SIB](https://www.sib.swiss/baudis-michael/))
+* Cristina Y. Gonzalez
 * ...
