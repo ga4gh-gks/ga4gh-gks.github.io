@@ -32,7 +32,7 @@ Conference calls are held remotely via Zoom Teleconferencing and can be joined u
 
 ## Documents
 
-|| Document Name || Purpose || 
+| Document Name | Purpose |
 |----------------|-----------|
 | [Roadmap](https://docs.google.com/document/d/1Hu1t_JPtm1T12M5iJVPsZxDvE-OJp-munyWh-S7vu68/edit ) | Details our future goals and timelines |
 | [Landscape Analysis](https://docs.google.com/spreadsheets/d/1BV0BuvdkobVAi3YLCzqUUqBGT-wM2jPfLvVQAF5IQcc/edit#gid=1171477640) | Known resources, data models, curation frameworks, applications and enums pertaining to variation annotation |
