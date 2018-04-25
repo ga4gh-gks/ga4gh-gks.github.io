@@ -18,7 +18,8 @@ The Variant Representation group aims to develop a computational data model and 
 
 Generally every Monday at 9am PST, 12pm EST, 5pm GMT. Check the [calendar for updates](https://calendar.google.com/calendar/b/1?cid=Z2Vub21pY3NhbmRoZWFsdGgub3JnX2trZTc4cnBuZms0dGszdmNyam8wODUxcHEwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
-Meeting minutes are published at https://docs.google.com/document/d/1Sulg3kECnorTEAbutINOsK-lFkKAcKpl6IHgPaPQEgA.
+Current meeting minutes are published accessible through [here](https://docs.google.com/document/d/1Sulg3kECnorTEAbutINOsK-lFkKAcKpl6IHgPaPQEgA) for review and comments. 
+* [Archive](/variant_representation_minutes.html) of previous meeting minutes
 
 Conference calls are held remotely via Zoom Teleconferencing and can be joined using the following methods:
 
