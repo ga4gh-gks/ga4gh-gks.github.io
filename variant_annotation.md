@@ -25,10 +25,10 @@ Conference calls are held remotely via Zoom Teleconferencing and can be joined u
 
 * PC, Mac, Linux, iOS or Android: https://zoom.us/j/7082943722
 * Telephone
-** US: 1 646 558 8656  
-** UK: (0) 20 3695 0088
-** International #s https://zoom.us/zoomconference
-** Meeting ID: 708 294 3722
+  * US: 1 646 558 8656  
+  * UK: (0) 20 3695 0088
+  * International #s https://zoom.us/zoomconference
+  * Meeting ID: 708 294 3722
 
 ## Documents
 
