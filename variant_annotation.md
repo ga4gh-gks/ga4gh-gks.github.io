@@ -19,7 +19,8 @@ The Variant Annotation group aims to develop a common data model to represent an
 
 Generally every Wednesday at 8am PST, 11am EST, 4pm GMT. Check the [calendar for updates](https://calendar.google.com/calendar/b/1?cid=Z2Vub21pY3NhbmRoZWFsdGgub3JnX2trZTc4cnBuZms0dGszdmNyam8wODUxcHEwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
-Meeting minutes are published on [Google Docs](https://docs.google.com/document/d/13sSChUB9rW7vl1ep-tZnaDzSWb_MyWIvSzEFVS32quE).
+Current meeting minutes are published accessible through [here](https://docs.google.com/document/d/13sSChUB9rW7vl1ep-tZnaDzSWb_MyWIvSzEFVS32quE) for review and comments. 
+* [Archive](/variant_annotation_minutes.html) of previous meeting minutes
 
 Conference calls are held remotely via Zoom Teleconferencing and can be joined using the following methods:
 
