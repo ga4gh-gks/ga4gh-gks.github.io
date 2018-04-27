@@ -19,7 +19,7 @@ The Variant Annotation group aims to develop a common data model to represent an
 
 Generally every Wednesday at 8am PST, 11am EST, 4pm GMT. Check the [calendar for updates](https://calendar.google.com/calendar/b/1?cid=Z2Vub21pY3NhbmRoZWFsdGgub3JnX2trZTc4cnBuZms0dGszdmNyam8wODUxcHEwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
-Meeting minutes are published at https://docs.google.com/document/d/13sSChUB9rW7vl1ep-tZnaDzSWb_MyWIvSzEFVS32quE.
+[Meeting minutes](https://docs.google.com/document/d/13sSChUB9rW7vl1ep-tZnaDzSWb_MyWIvSzEFVS32quE)
 
 Conference calls are held remotely via Zoom Teleconferencing and can be joined using the following methods:
 
@@ -32,7 +32,7 @@ Conference calls are held remotely via Zoom Teleconferencing and can be joined u
 
 ## Email Lists
 
-You can contact the variant representation group using the Google Group  https://groups.google.com/a/ga4gh.org/d/forum/ga4gh-variant-annotation.
+You can contact the variant representation group using the [Google Group](https://groups.google.com/a/ga4gh.org/d/forum/ga4gh-variant-annotation)
 
 ## Documents
 
