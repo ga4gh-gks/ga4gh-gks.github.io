@@ -23,16 +23,16 @@ Current meeting minutes are published accessible through [here](https://docs.goo
 
 Conference calls are held remotely via Zoom Teleconferencing and can be joined using the following methods:
 
-* PC, Mac, Linux, iOS or Android: https://zoom.us/j/7082943722
+* PC, Mac, Linux, iOS or Android: [https://zoom.us/j/7082943722](https://zoom.us/j/7082943722)
 * Telephone
   * US: 1 646 558 8656  
   * UK: (0) 20 3695 0088
-  * International #s https://zoom.us/zoomconference
+  * International #s [https://zoom.us/zoomconference](https://zoom.us/zoomconference)
   * Meeting ID: 708 294 3722
 
 ## Email Lists
 
-You can contact the variant representation group using the Google Group https://groups.google.com/a/ga4gh.org/forum/#!forum/variant-rep.
+You can contact the variant representation group using [our Google Group](https://groups.google.com/a/ga4gh.org/forum/#!forum/variant-rep).
 
 ## Documents
 
