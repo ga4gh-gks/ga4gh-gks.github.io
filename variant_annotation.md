@@ -33,7 +33,7 @@ Conference calls are held remotely via Zoom Teleconferencing and can be joined u
 
 ## Email Lists
 
-You can contact the variant representation group using [our Google Group](https://groups.google.com/a/ga4gh.org/d/forum/ga4gh-variant-annotation).
+You can contact the variant annotation group using [our Google Group](https://groups.google.com/a/ga4gh.org/d/forum/ga4gh-variant-annotation).
 
 ## Documents
 
