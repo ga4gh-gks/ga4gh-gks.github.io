@@ -38,6 +38,8 @@ Current categories to be auto-linked to their main pages are
 * `howto`
 * `variant_annotation`
 * `variant_representation`
+* `variant_annotation_minutes`
+* `variant_representation_minutes`
 
 These categories can also be used in combination. If you want a page to be listed in `variant_annotation` & `variant_representation`, you can add both categories:
 
@@ -51,5 +53,7 @@ category:
   - variant_representation
 ---
 ```
+
+The `variant_annotation_minutes` & `variant_representation_minutes` are not directly linked in the sidebar, but accessible through their parent pages (i.e. clicking "Variant Representation" then shows related pages, one of which is "VarRep Minutes Archive", which lists all the minutes).
 
 Please be aware of the correct [YAML syntax](https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml).
