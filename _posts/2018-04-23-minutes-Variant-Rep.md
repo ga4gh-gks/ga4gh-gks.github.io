@@ -6,9 +6,13 @@ category:
   - variant_representation_minutes
 ---
 Michael: Set up a gitub repository: https://github.com/ga4gh-gks, have a dev site and a place where future repositories could be put.  Will be filled out. [ACTION] All should suggest what can be put here.
+
 Larry: All links to Google docs will be placed here.
-Michael:  How much of this should be open and visible?
-Larry: There is currently a google drive where this is currently organized.
+
+* Michael:  How much of this should be open and visible?
+
+* Larry: There is currently a google drive where this is currently organized.
+
 Michael: [ACTION] Melissa to make a list of important + public docs
 
 Larry: Recap of past meetings.  https://docs.google.com/document/d/1UTjAB-Nh2t7UCCTVl1VdoXTP8HK0Y4LmDEAvqUBMOOY/edit
