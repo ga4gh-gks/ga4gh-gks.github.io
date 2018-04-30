@@ -6,7 +6,6 @@ category:
   - variant_representation_minutes
 ---
 
-2018-04-09: Variant Representation
 ### Variant Representation
 ##### Chairs: Larry Babb, Michael Baudis
 ##### Attendees “Name (Affiliation)”:Piotr Pawliczek (ClinGen), Andy Yates (EMBL-EBI), Cristina Yenyxe González (EMBL-EBI), Eric Moyer (NCBI/dbSNP), Zhenyu Zhang (UChicago/GDC), Brian Walsh(OHSU), Deepak Unni (LBNL), Karen Eilbeck U of Utah, Sequence Ontology, Shawn Rynearson (U of U), Robert Freimuth; Melissa Cline (UC Santa Cruz)
