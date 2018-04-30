@@ -54,7 +54,7 @@ Useful for kinds of equivalence. The notion of equivalence needs a clean definit
 
 **Projects artefacts:**
 
-GitHub: Existing VMC Github project json schema.  Goal was to make it easy for tools who wanted to build off the schema to access it.  Python repo incorporates the json schema.
+GitHub: [Existing VMC Github project](https://github.com/ga4gh/vmc) json schema.  Goal was to make it easy for tools who wanted to build off the schema to access it.  [Python repo](https://github.com/ga4gh/vmc-python) incorporates the json schema.
 
 If new work is modifying the spec, it should go in the spec as a feature branch. If it’s discussion, etc, it should go elsewhere.  Start by keeping everything separate for now until we know what the result will be.
 
@@ -66,7 +66,7 @@ Structural Var sub-group working team (first meeting 2/19 Mon 12p ET)
 
 Volunteers: Michael Baudis (cancer)(michael.baudis@imls.uzh.ch), Tristan Nelson (germline)(thnelson@geisinger.edu), Larry Babb (larry.babb@sunquestinfo.com)
 
-Concepts working off of the Variation Representation Structural Working Doc.  Team members should contribute to this document.
+Concepts working off of the [Variation Representation Structural Working Doc](https://docs.google.com/spreadsheets/d/17M1U3Qfw18fkA30SoH1vJyOEK_fZ0z54UKbNPsdr9h0/edit#gid=0).  Team members should contribute to this document.
 
 Roll call on equivalence vs structural interest:
 - Brian Walsh: Focused on equivalence.  Trying to harmonize and standardize a superset of data.
