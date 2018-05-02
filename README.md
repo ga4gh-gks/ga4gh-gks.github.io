@@ -4,7 +4,7 @@ permalink: index.html
 ---
 ## GA4GH Genomic Knowledge Standards
 
-The "Genomic Knowledge Standards" ([GKS](http://ga4gh-gks.github.io)) work stream is one of the elements of the Global Alliance for Genomics and Health ([GA4GH](http://ga4gh.org)), aimed at developing standard formats for the exchange of genomic data for research and biomedical applications.  All members of this team must follow the [GA4GH Standards of Professional Conduct:]( https://docs.google.com/document/d/1fQbKUuk_sfnzU0kTHU71KYF1suzzHoZVhBfao9Omsj0/edit).
+The "Genomic Knowledge Standards" ([GKS](http://ga4gh-gks.github.io)) work stream is one of the elements of the Global Alliance for Genomics and Health ([GA4GH](http://ga4gh.org)), aimed at developing standard formats for the exchange of genomic data for research and biomedical applications.  All members of this team must follow the [GA4GH Standards of Professional Conduct]( https://docs.google.com/document/d/1fQbKUuk_sfnzU0kTHU71KYF1suzzHoZVhBfao9Omsj0/edit).
 
 The current focus of GKS lies in the evaluation and definitions of forward-looking formats and implementations for representation and annotation of genomic variants.
 
