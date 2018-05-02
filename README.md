@@ -14,7 +14,7 @@ The current focus of GKS lies in the evaluation and definitions of forward-looki
 
 The two main projects are:
 
-### Variant Representation
+### [Variant Representation](https://ga4gh-gks.github.io/variant_representation.html)
 
 _Standardised extensible model for computational variant representation_
 
@@ -22,7 +22,7 @@ Leads:
 - [Larry Babb](https://www.clinicalgenome.org/about/people/staff/larry-babb/)
 - [Michael Baudis](http://www.imls.uzh.ch/en/research/baudis.html)
 
-### Variant Annotation
+### [Variant Annotation](https://ga4gh-gks.github.io/variant_annotation.html)
 
 _Data model for linking variant data to annotations._
 
