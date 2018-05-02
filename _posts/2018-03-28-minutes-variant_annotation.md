@@ -6,7 +6,7 @@ category:
   - variant_annotation_minutes
 ---
 
-### Variant Representation 
+### Variant Annotation
 ##### Chairs: Matt Brush, Javier Lopez
 ##### Attendees “Name (Affiliation)”: Melissa Cline (UC Santa Cruz), Kyle Hernandez (UChicago/GDC), Chris Bizon (UNC/ClinGen), Steven Hart (Mayo Clinic), Malachi Griffith (WASHU), David Kreda, Steve Brenner, Larry Babb, Bob Freimuth, Andy Yates
 
