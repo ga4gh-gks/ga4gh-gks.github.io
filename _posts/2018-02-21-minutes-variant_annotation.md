@@ -6,7 +6,7 @@ category:
   - variant_annotation_minutes
 ---
 
-### Variant Representation 
+### Variant Annotation
 ##### Chairs: Matt Brush, Javier Lopez
 ##### Attendees “Name (Affiliation)”: Tim Mercer (Garvan Australia), Pablo Cingolani, Shirley Li (Molecular Match), Chris Bizon (ClinGen), Karen Eilbeck (U of Utah, SO), Robert Freimuth (ClinGen), Larry Babb (ClinGen), Gabe Rudy (Golden Helix), Steve Hart
 
