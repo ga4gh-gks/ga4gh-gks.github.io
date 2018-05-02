@@ -6,7 +6,7 @@ category:
   - variant_annotation_minutes
 ---
 
-### Variant Representation 
+### Variant Annotation
 ##### Chairs: Matt Brush, Javier Lopez
 ##### Attendees “Name (Affiliation)”: Malachi Griffith (VICC), Obi Griffith, Alex Wagner, Larry Babb, Michael Baudis, Melissa Cline, Kathy Tzeng (Optum),Raymond Dalgleish , Bob Freimuth (ClinGen), Sarah Hunt (EMBL-EBI), Zhenyu Zhang (GDC), Terence O’Neil, Brian Walsh
 
