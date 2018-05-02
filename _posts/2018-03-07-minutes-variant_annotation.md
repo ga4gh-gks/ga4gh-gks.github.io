@@ -6,7 +6,7 @@ category:
   - variant_annotation_minutes
 ---
 
-### Variant Representation 
+### Variant Annotation
 ##### Chairs: Matt Brush, Javier Lopez
 ##### Attendees “Name (Affiliation)”: Karen Eilbeck (SO, Uof Utah), Michael Watkins (U of Utah), Shirley Li and Eric Rutledge (Molecular Match), Melissa Cline (UC Santa Cruz), Bob Freimuth (Mayo Clinic), Sarah Hunt (EMBL-EBI), Larry Babb (ClinGen, Sunquest), Malachi Griffith (WASHU, VICC, CIViC), Zhenyu Zhang (UChicago, GDC), Chris Bizon (ClinGen, UNC), Andy Yates (EMBL-EBI)
 

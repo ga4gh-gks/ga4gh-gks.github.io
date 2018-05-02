@@ -6,7 +6,8 @@ category:
   - variant_representation_minutes
 ---
 
-### Variant Representation (equiv/analog vmc examples)
+### Variant Representation
+#### - equiv/analog vmc examples -
 ##### Chairs: Larry Babb, Michael Baudis
 ##### Attendees “Name (Affiliation)”: Reece Hart, Piotr Pawliczek (ClinGen), Cristina Yenyxe Gonzalez (EMBL-EBI, ENA/EVA/EGA), Heidi Sophia (NIH), Andy Yates, Chris Bizon (NCBI/dbSNP), Steven Harrison, Eric Moyer (NCBI), Tristan Nelson, Tim Mercer (Garvan), Shawn Rynearson (U of U)
 
@@ -25,13 +26,13 @@ Cristina: dbVar folks are interested in contributing, but currently have limited
 
 Larry: [Var Rep Equivalence Use Cases](https://docs.google.com/document/d/1UTjAB-Nh2t7UCCTVl1VdoXTP8HK0Y4LmDEAvqUBMOOY/edit?usp=sharing). For collecting use cases by driver projects and others and determine what is in scope, future scope, out of scope.  Went over Examples 1-6, notes in the document.
 
-Reece: Need to separate the concepts of equivalence or consistent: the deletion of a large region that includes the deletion of a gene is not the same as just the deletion of a gene, but the observations may be consistent. 
+Reece: Need to separate the concepts of equivalence or consistent: the deletion of a large region that includes the deletion of a gene is not the same as just the deletion of a gene, but the observations may be consistent.
 
 Michael: Need to determine where the line is between annotation and representation.
 
 Example #4: Steven:  Important to note that depending upon the nomenclature used, two of the “same” variants will be labeled differently in ClinVar, so it would be hard to find closely related, or even the same variants.  Maybe the annotation group needs to handle cases that are “essentially the same variant”.
 
-Reece: In this large deletion, the curators want to note the loss of an exon.  There may be several variants that are consistent with that deletion, but not exactly the same as that deletion (100 vs 101 kb deleted, both delete the exon). “Essentially the same” is not the same as actually equivalent. 
+Reece: In this large deletion, the curators want to note the loss of an exon.  There may be several variants that are consistent with that deletion, but not exactly the same as that deletion (100 vs 101 kb deleted, both delete the exon). “Essentially the same” is not the same as actually equivalent.
 
 [ACTION]  Members to add more use cases.  Cristina offered to add some.
 

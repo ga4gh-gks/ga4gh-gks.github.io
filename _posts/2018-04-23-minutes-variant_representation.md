@@ -6,7 +6,8 @@ category:
   - variant_representation_minutes
 ---
 
-### Variant Representation (equiv/analog vmc examples)
+### Variant Representation
+#### - equiv/analog vmc examples -
 ##### Chairs: Larry Babb, Michael Baudis
 ##### Attendees “Name (Affiliation)”: Piotr Pawliczek (ClinGen), Chris Bizon, Cristina Yenyxe González (EMBL-EBI), Tristan Nelson, Reece Hart, Zhenyu Zhang (GDC / UChicago), Deepak Unni, Shawn Rynearson and Karen Eilbeck (U of U)
 
@@ -18,7 +19,7 @@ category:
 - Michael:  How much of this should be open and visible?
 - Larry: There is currently a google drive where this is currently organized.
 - Michael: **ACTION** Melissa to make a list of important + public docs
-- 
+-
 - Larry: Recap of past meetings.  https://docs.google.com/document/d/1UTjAB-Nh2t7UCCTVl1VdoXTP8HK0Y4LmDEAvqUBMOOY/edit
 - [Slides here](https://drive.google.com/file/d/1Qw-_rC2tLNiKJc6WwjCl0H4T_tq6DCdi/view)
 
@@ -26,11 +27,11 @@ category:
 - Importance of strandedness and directionality, HL7 went with Watson and Crick instead of +/-.
 - If you look at deletions on the Watson vs Crick strand, right shifting changes things.***
 - Reece:  Variant normalization is good for preventing annotation from leaking across into representation.
-- Projecting a variant from a - strand to the + strand needs to be normalized again.  A duplication 5’ on the genome gets renormalized as ***. 
-- 
+- Projecting a variant from a - strand to the + strand needs to be normalized again.  A duplication 5’ on the genome gets renormalized as ***.
+-
 - Karen: Why go back to Watson and Crick?  Everything in bioinformatics uses +/-.
 - Larry: Let’s stick with +/-, will feedback to Bob re HL7.
-- 
+-
 - Larry to Reece: VMC Bundles, they are just a mechanism to package things in a message, correct?
 - Reece: Yes.  The intention was to create an internally consistent set of data.  If you want to talk about genotypes, you need to talk about haplotypes, then alleles.  What information do you want to send to make sure that the receiver has a complete picture.
 - Larry: So, technically, you could send a bundle without location information?
