@@ -6,7 +6,7 @@ category:
   - variant_annotation_minutes
 ---
 
-### Variant Representation 
+### Variant Annotation 
 ##### Chairs: Matt Brush, Javier Lopez
 ##### Attendees “Name (Affiliation)”: Melissa Cline (BRCA Exchange), Andy Yates, Raymond Dalgleish, Shirley Li, Larry Babb, Steven Hart, Zhenyu Zhang (University of Chicago), Sarah Hunt (EMBL-EBI)
 
