@@ -29,3 +29,6 @@ _Data model for linking variant data to annotations._
 Leads:
 - [Matt Brush](http://www.ohsu.edu/xd/education/library/about/staff-directory/matthew-brush.cfm)
 - Javier Lopez
+
+#### Technical Programme Manager
+- Melissa Konopko
