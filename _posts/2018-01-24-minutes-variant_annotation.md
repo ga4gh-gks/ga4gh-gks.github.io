@@ -6,7 +6,7 @@ category:
   - variant_annotation_minutes
 ---
 
-### Variant Representation 
+### Variant Annotation
 ##### Chairs: Matt Brush, Javier Lopez
 ##### Attendees “Name (Affiliation)”: Andy Yates (EBI), Matt Brush (OHSG, Monarch), Javier Lopez (GeL), Steven Hart (Mayo Clinic), Larry Babb (Sunquest Information Systems, ClinGen), Chris Bizon (UNC/ClinGen), David Kreda (HMS DBMI consultant, HL7 CGWG, VMC), Raymond Dalgleish (University of Leicester, UK), Melissa Klien (BRCA Exchange), Fiona Cunningham (EBI), Sarah Hunt (ENSBL), Melissa Konopko (GA4GH), Robert Freimuth (Mayo, ClinGen), Keith Ellison (Veritas), Shirley (Molecular match, VICC)
 

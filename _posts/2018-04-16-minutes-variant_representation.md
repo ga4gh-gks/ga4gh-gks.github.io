@@ -6,7 +6,8 @@ category:
   - variant_representation_minutes
 ---
 
-## Var Rep Working Call (equiv/analog vmc examples)
+### Var Rep Working Call
+#### - equiv/analog vmc examples -
 ##### Chairs: Larry Babb
 ##### Attendees “Name (Affiliation)”
 
@@ -39,7 +40,7 @@ category:
 - MB: points to lack of reference base representation (LB: design decision)
 - BW: computability of identifiers when using different accessions representing same sequence … LB, PP: only if compute over sequence => same identifier; PP: however, transcripts w/ same sequence may be different based on start codon
 - BW: start with most simple example for representation and add on that
-- Are bundles the same if output sequence is, or only if all elements are (as per current VMC… symmetric/transitive/reflexive)? PP, LB … 
+- Are bundles the same if output sequence is, or only if all elements are (as per current VMC… symmetric/transitive/reflexive)? PP, LB …
 - PP: “analogue relation” if same sequence output; not covered yet => 2nd type of equivalence in resulting sequence (LB)
 - LB: calling the “output of an allele” something different?
 - BF: Examples good, needed for define e.g. “types of equivalence” => go through, look for emerging patterns
@@ -47,6 +48,6 @@ category:
 - MB: same - same; even more than equivalence; but comp. Differences from changes in ref/alignment
 - LB, PP: differences from alignments/aligners; “aligned allele equivalence”
 
-=> More detailed notes from working call can be found [here](https://docs.google.com/document/d/1exzE9hLaMeYsQ6Uu5OQOJbO_hJjyBWu--vqdboWHLYI/edit#heading=h.tms7m01cjme3). 
+=> More detailed notes from working call can be found [here](https://docs.google.com/document/d/1exzE9hLaMeYsQ6Uu5OQOJbO_hJjyBWu--vqdboWHLYI/edit#heading=h.tms7m01cjme3).
 
 => [**Archive**](/variant_representation_minutes.html) of previous meeting minutes

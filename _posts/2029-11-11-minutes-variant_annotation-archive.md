@@ -9,7 +9,7 @@ category:
 
 ## GA4GH::GKS Variant Annotation Meeting Minutes
 
-Current meeting minutes are published accessible through [here](https://docs.google.com/document/d/13sSChUB9rW7vl1ep-tZnaDzSWb_MyWIvSzEFVS32quE/edit#heading=h.t2adm0gua505) for review and comments. 
+Current meeting minutes are published accessible through [here](https://docs.google.com/document/d/13sSChUB9rW7vl1ep-tZnaDzSWb_MyWIvSzEFVS32quE/edit#heading=h.t2adm0gua505) for review and comments.
 
 ### Archive
 
