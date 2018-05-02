@@ -6,7 +6,7 @@ category:
   - variant_annotation_minutes
 ---
 
-### Variant Representation 
+### Variant Annotation
 ##### Chairs: Matt Brush, Javier Lopez
 ##### Attendees “Name (Affiliation)”: Elliott Margulies (Illumina), Malachi Griffith (VICC), Chris Bizon (ClinGen), Sarah Hunt, Raymond Dalgleish, Zhenyu Zhang, David Kreda, Steven Brenner, Larry Babb (ClinGen), Bob Freimuth (ClinGen)
 
