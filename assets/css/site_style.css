@@ -1,4 +1,15 @@
-footer { display: block; width: 100%; float: left; position: fixed; bottom: 50px; -webkit-font-smoothing: subpixel-antialiased; }
+footer { bottom: 20px; }
+
+h1,h2,h3 {
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+h4,h5,h6 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
 
 div {
   display: block;
@@ -34,10 +45,6 @@ section h4 {
   margin-bottom: 8px;
 }
 
-section h2,h3 {
-  margin-top: 10px;
-  margin-bottom: 12px;
-}
 section p {
   margin-top: 0px;
   margin-bottom: 4px;
@@ -53,7 +60,7 @@ section div.excerpt {
   border: 1px solid #e5e5e5;
 }
 
-tiny { font-size: 9px; color: #bbbbbb; }
+.tiny { font-size: 9px; color: #bcbcbc; }
 
-a tiny { color: #bbbbbb;  }
-a:hover tiny { color: #bbbbbb; }
+.tiny a  { color: #bcccee;  }
+.tiny a:hover { color: #bcccee; }

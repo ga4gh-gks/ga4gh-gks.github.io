@@ -94,18 +94,13 @@
     <section>
 
 {{ content }}
-{% if page.category contains "news" %}
-  {% if page.date %}
-  <h5>{{ page.date | date_to_string }}</h5>
-  {% endif %}
-{% endif %}
 
     </section>
 
-    <footer class="wrapper">
-      <a href="{{ site.site_parent_link }}"><img style="margin-bottom: -30px; float: left;" src="{{ "/assets/img/site-logo.png" }}" /></a>
+    <footer>
+      <a href="{{ site.site_parent_link }}"><img style="margin-bottom: 10px; float: left;" src="{{ "/assets/img/site-logo.png" }}" /></a>
       
-    <div style="display: block; float: right; margin-bottom: 5px;"><tiny>Theme by <a href="https://github.com/mbaudis">mbaudis</a> based on "minimal" by <a href="https://github.com/orderedlist">orderedlist</a></tiny>
+    <div style="display: block; margin-left: auto; margin-right: auto; margin-bottom: -50px;" class="tiny">Theme by <a href="https://github.com/mbaudis">mbaudis</a> based on "minimal" by <a href="https://github.com/orderedlist">orderedlist</a>
     </div>
 
     </footer>
