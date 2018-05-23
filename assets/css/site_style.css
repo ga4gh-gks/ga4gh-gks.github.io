@@ -1,4 +1,4 @@
-footer { display: block; width: 100%; float: left; position: fixed; bottom: 50px; -webkit-font-smoothing: subpixel-antialiased; }
+footer { display: block; width: 100%; float: left; position: fixed; bottom: 15px; -webkit-font-smoothing: subpixel-antialiased; }
 
 div {
   display: block;
