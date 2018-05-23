@@ -5,69 +5,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/assets/css/site_style.css">
 
 <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-  <style type="text/css">
-
-    div {
-      display: block;
-      clear: both;
-    }
-
-    div.navboxleft {
-      padding-right: 30px;
-      padding-top: 20px;
-      padding-bottom: 0px;
-    }
-
-    h4.navleft {
-      margin-top: 0px;
-      margin-bottom: 3px;
-    }
-
-    div.header_sublink {
-      padding-left: 8px;
-      font-size: 0.9em;
-      margin-bottom: 2px;
-    }
-
-    li {
-      margin-top: 0px;
-      margin-bottom: 2px;
-    }
-
-    section {
-      width: 540px;
-    }
-    section h4 {
-      margin-bottom: 8px;
-    }
-
-    section h2,h3 {
-      margin-top: 10px;
-      margin-bottom: 12px;
-    }
-    section p {
-      margin-top: 0px;
-      margin-bottom: 4px;
-    }
-
-    section div.excerpt {
-      display: block;
-      padding: 3px 3px 3px 10px;
-      margin-bottom: 5px;
-      background-color: #fcfcfc;
-      font-size: 0.8em;
-      border-radius: 10px;
-      border: 1px solid #e5e5e5;
-    }
-
-  </style>
 
 </head>
 
@@ -75,7 +20,7 @@
   <div class="wrapper">
     <header id="header">
 
-      <h1 style=""> <a href="{{ site.github.url | default: "/index.html" }}">GA4GH::GKS</a></h1>
+      <h2><a href="{{ site.github.url | default: "/index.html" }}">{{ site.label }}</a></h2>
       <div style="">{{ site.description | default: site.github.project_tagline }}</div>
 
   <div class="navboxleft">
@@ -107,23 +52,20 @@
 <!-- ######################################################################  -->
 <!--                           Static Links                                  -->
 <!-- ######################################################################  -->
-      <h4 class="navleft"><a href="https://github.com/ga4gh-gks/">GA4GH-GKS Repositories</a></h4>
+      <h4 class="navleft"><a href="https://github.com/{{ site.github_organisation }}/">{{ site.label }} Repositories</a></h4>
 
 </div>
 
 <div class="navboxleft">
 
-      <h4 class="navleft">Related Projects</h4>
-<!-- Moving away from the standard template to a custom/static version -->
+      <h4 class="navleft">Related Sites</h4>
+
+{% for this_static in site.navigation_static_links %}
+  {% if this_static[1].label != site.label %}
       <div class="header_sublink">
-        <a href="https://github.com/ga4gh/">GA4GH Projects</a>
-      </div>
-      <div class="header_sublink">
-        <a href="https://github.com/ga4gh-metadata/">GA4GH Metadata</a>
-      </div>
-      <div class="header_sublink">
-        <a href="https://github.com/ga4gh/large-scale-genomics-wiki/wiki/">GA4GH Large Scale Genomics</a>
-      </div>
+      <a href="{{ this_static[1].url }}">{{ this_static[1].label }}</a></div>
+  {% endif %}
+{% endfor %}
 
 </div>
 
@@ -160,14 +102,20 @@
 
     </section>
 
-    <footer>
-
-      <a href="{{ site.site_parent_link }}"><img style="margin-top:15px;" src="{{ "/assets/img/site-logo.png" }}" /></a>
+    <footer class="wrapper">
+      <a href="{{ site.site_parent_link }}"><img style="margin-bottom: -30px; float: left;" src="{{ "/assets/img/site-logo.png" }}" /></a>
+      
+    <div style="display: block; float: right; margin-bottom: 5px;"><tiny>Theme by <a href="https://github.com/mbaudis">mbaudis</a> based on "minimal" by <a href="https://github.com/orderedlist">orderedlist</a></tiny>
+    </div>
 
     </footer>
-  </div>
-  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
+
+  </div>
+
+<!-- ######################################################################  -->
+
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
 {% if site.google_analytics %}
   <script>
