@@ -10,7 +10,7 @@ The current focus of GKS lies in the evaluation and definitions of forward-looki
 
 ### Work Stream Leads:
 - [Bob Freimuth](http://www.mayo.edu/research/faculty/freimuth-robert-r-ph-d/bio-00027248)
-- [Any Yates](https://www.ebi.ac.uk/about/people/andy-yates)
+- [Andy Yates](https://www.ebi.ac.uk/about/people/andy-yates)
 
 The two main projects are:
 
