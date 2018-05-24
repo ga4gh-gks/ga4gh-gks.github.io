@@ -36,10 +36,21 @@
   {% if page.category contains cat_key %}
 <!-- All matching post -->
     {% for post in site.posts %}
-      {% if post.category contains cat_key %}     
+      {% if post.category contains cat_key %} 
+        {% if post.tags contains 'featured' %} 
       <div class="header_sublink" >
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% for post in site.posts %}
+      {% if post.category contains cat_key %}     
+        {% unless post.tags contains 'featured' %} 
+      <div class="header_sublink" >
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </div>
+        {% endunless %}
       {% endif %}
     {% endfor %}
   {% endif %}
