@@ -3,7 +3,9 @@ title:  "VarRep Minutes 2018-03-26"
 date: 2018-03-26
 layout: default
 category:
-  - variant_representation_minutes
+  - variant_representation
+tags:
+  - minutes
 ---
 
 ### Variant Representation
@@ -11,7 +13,7 @@ category:
 ##### Attendees “Name (Affiliation)”:Bob Freimuth (Mayo Clinic), Shawn Rynearson (U of U), Piotr Pawliczek (BCM/ClinGen), Cristina Yenyxe González (EMBL-EBI), Melissa Cline (UC Santa Cruz), Kathy Tzeng (Optum) Ronak Patel (BCM/ClinGen)
 
 
-####Minutes:
+#### Minutes:
 
 Cristina: Went over use case 12 per the document linked in the agenda.  Multi allelic variants, generally with multiple samples. 
 

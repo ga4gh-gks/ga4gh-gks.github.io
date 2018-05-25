@@ -3,7 +3,9 @@ title:  "VarRep Minutes 2018-02-12"
 date: 2018-02-12
 layout: default
 category:
-  - variant_representation_minutes
+  - variant_representation
+tags:
+  - minutes
 ---
 
 ### Variant Representation

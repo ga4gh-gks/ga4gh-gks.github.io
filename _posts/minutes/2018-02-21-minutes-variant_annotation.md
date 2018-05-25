@@ -3,7 +3,9 @@ title:  "VarAnn Minutes 2018-02-21"
 date: 2018-02-21
 layout: default
 category:
-  - variant_annotation_minutes
+  - variant_annotation
+tags:
+  - minutes
 ---
 
 ### Variant Annotation

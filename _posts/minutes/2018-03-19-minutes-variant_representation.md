@@ -3,7 +3,9 @@ title:  "VarRep Minutes 2018-03-19"
 date: 2018-03-19
 layout: default
 category:
-  - variant_representation_minutes
+  - variant_representation
+tags:
+  - minutes
 ---
 
 ### Variant Representation Working Call

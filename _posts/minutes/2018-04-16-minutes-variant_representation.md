@@ -3,7 +3,9 @@ title:  "VarRep Minutes 2018-04-16"
 date: 2018-04-16
 layout: default
 category:
-  - variant_representation_minutes
+  - variant_representation
+tags:
+  - minutes
 ---
 
 ### Var Rep Working Call

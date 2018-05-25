@@ -3,7 +3,9 @@ title:  "VarRep Minutes 2018-02-05"
 date: 2018-02-05
 layout: default
 category:
-  - variant_representation_minutes
+  - variant_representation
+tags:
+  - minutes
 ---
 
 ### Variant Representation Equivalence Sub-Group Call
