@@ -29,30 +29,39 @@
 <!--         navigation_categories from _config.yaml                         -->
 <!-- ######################################################################  -->
 
+{% assign nav_itemno = 5 %}
+{% if site.navigation_max_items %}
+  {% assign nav_itemno = site.navigation_max_items %}
+{% endif %}
+
 {% for this_category in site.navigation_categories %}
   {% assign cat_label = this_category[1] %}
   {% assign cat_key = this_category[0] %}
-      <h4 class="navleft"><a href="/{{ this_category[0] }}.html">{{ cat_label }}</a></h4>
+      <h4><a href="/{{ cat_key }}.html">{{ cat_label }}</a></h4>
+<!-- posts are listed if same category as current page -->
   {% if page.category contains cat_key %}
-<!-- All matching post -->
-    {% for post in site.posts %}
-      {% if post.category contains cat_key %} 
-        {% if post.tags contains 'featured' %} 
-      <div class="header_sublink" >
+    {% assign cat_posts = site.posts | where: 'category', cat_key %}
+
+    {% for post in cat_posts %}
+      {% if post.tags contains 'featured' %} 
+      <div class="sublink" >
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
-        {% endif %}
+        {% assign nav_itemno = nav_itemno | - 1 %}     
       {% endif %}
     {% endfor %}
-    {% for post in site.posts %}
-      {% if post.category contains cat_key %}     
-        {% unless post.tags contains 'featured' %} 
-      <div class="header_sublink" >
+    {% for post in cat_posts limit: nav_itemno %}
+      {% unless post.tags contains 'featured' %} 
+     <div class="sublink" >
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
-        {% endunless %}
-      {% endif %}
+      {% endunless %}
     {% endfor %}
+    {% if cat_posts.size > nav_itemno %}
+      <div class="sublink" >
+        <a href="/{{ cat_key }}.html">all ...</a>
+      </div>
+    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -73,7 +82,7 @@
 
 {% for this_static in site.navigation_static_links %}
   {% if this_static[1].label != site.label %}
-      <div class="header_sublink">
+      <div class="sublink">
       <a href="{{ this_static[1].url }}">{{ this_static[1].label }}</a></div>
   {% endif %}
 {% endfor %}

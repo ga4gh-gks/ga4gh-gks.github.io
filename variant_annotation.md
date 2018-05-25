@@ -45,3 +45,22 @@ You can contact the variant annotation group using [our Google Group](https://gr
 | [Driver Project Data Overview](https://docs.google.com/document/d/1qRlDRXaKoeW8vWZ6meQBNutXsTIBqtQrf7B0IJ4JDNg/edit#heading=h.pd5a1roctmgj) | Summary data to model as defined by our engaged driver projects |
 | [Driver Project Data Evaluation](https://docs.google.com/document/d/1BbRfPyYH3aHGEK1QhoVRGQJtY9FkVF0GHdaSzez1Reo/edit#heading=h.gy3xodyz89u6) | Evalutation of examples of driver project variant annotation |
 | [Concept Glossary](https://docs.google.com/document/d/1zrOXzD08XletSHwrJHofkPufANkAy7marAkPyFX9AVY/edit) | Defining a set of concepts or terms clearly and to use them consistently |
+
+---
+
+## Related Posts
+
+{% for item in site.categories.variant_annotation %}
+  {% unless item.tags contains 'minutes' %}
+    {% assign currentyear = item.date | date: "%Y" %}
+    {% if currentyear != currentdate %}
+<h2 id="y{{ currentyear }}">{{ currentyear }}</h2>
+      {% assign currentdate = currentyear %}
+    {% endif %}
+<div class="excerpt">
+{{ item.excerpt }}
+<p>{{ item.date | date: "%Y-%m-%d" }}: <a href="{{ item.url | relative_url }}">more ...</a></p>
+</div>
+  {% endunless %}
+{% endfor %}
+

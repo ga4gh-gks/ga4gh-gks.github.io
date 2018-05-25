@@ -43,3 +43,21 @@ You can contact the variant representation group using [our Google Group](https:
 | [Equivalence Use Cases](https://docs.google.com/document/d/1UTjAB-Nh2t7UCCTVl1VdoXTP8HK0Y4LmDEAvqUBMOOY) | Set of worked use-cases describing variation equivalence |
 | [Structural Variants Concepts](https://docs.google.com/document/d/19juHy7HUkAOACVHPVnWh033UwAjn0iwkoGA7THoZsgE) | Document defining the structure and format of strutural variants |
 | [Structural Variants Types Spreadsheet](https://docs.google.com/spreadsheets/d/17M1U3Qfw18fkA30SoH1vJyOEK_fZ0z54UKbNPsdr9h0) | Existing models of structural variants |
+
+---
+
+## Related Posts
+
+{% for item in site.categories.variant_representation %}
+  {% unless item.tags contains 'minutes' %}
+    {% assign currentyear = item.date | date: "%Y" %}
+    {% if currentyear != currentdate %}
+<h2 id="y{{ currentyear }}">{{ currentyear }}</h2>
+      {% assign currentdate = currentyear %}
+    {% endif %}
+<div class="excerpt">
+{{ item.excerpt }}
+<p>{{ item.date | date: "%Y-%m-%d" }}: <a href="{{ item.url | relative_url }}">more ...</a></p>
+</div>
+  {% endunless %}
+{% endfor %}

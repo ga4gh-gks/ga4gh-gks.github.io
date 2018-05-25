@@ -1,5 +1,4 @@
 body { padding: 15px; }
-
 section { width: 570px; }
 footer { bottom: 20px; }
 
@@ -25,12 +24,12 @@ div.navboxleft {
   padding-bottom: 0px;
 }
 
-h4.navleft {
+#header h4 {
   margin-top: 4px;
   margin-bottom: 2px;
 }
 
-div.header_sublink {
+div.sublink {
   padding-left: 8px;
   font-size: 0.9em;
   margin-bottom: 2px;
