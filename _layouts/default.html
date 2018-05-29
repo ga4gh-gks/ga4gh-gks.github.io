@@ -29,6 +29,7 @@
 <!--         navigation_categories from _config.yaml                         -->
 <!-- ######################################################################  -->
 
+<!-- fallback nav_itemno declaration -->
 {% assign nav_itemno = 5 %}
 {% if site.navigation_max_items %}
   {% assign nav_itemno = site.navigation_max_items %}
@@ -41,22 +42,25 @@
 <!-- posts are listed if same category as current page -->
   {% if page.category contains cat_key %}
     {% assign cat_posts = site.posts | where: 'category', cat_key %}
-
     {% for post in cat_posts %}
-      {% if post.tags contains 'featured' %} 
+<!-- first sticky/featured posts -->
+      {% if post.tags contains 'featured' or post.tags contains 'sticky' %} 
       <div class="sublink" >
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
+<!-- those are subtracted from the nav_itemno count ... -->
         {% assign nav_itemno = nav_itemno | - 1 %}     
       {% endif %}
     {% endfor %}
     {% for post in cat_posts limit: nav_itemno %}
-      {% unless post.tags contains 'featured' %} 
+<!-- others than the sticky/featured posts -->
+      {% unless post.tags contains 'featured' or post.tags contains 'sticky' %} 
      <div class="sublink" >
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
       {% endunless %}
     {% endfor %}
+<!-- link to the category collecting page, if more -->
     {% if cat_posts.size > nav_itemno %}
       <div class="sublink" >
         <a href="/{{ cat_key }}.html">all ...</a>
@@ -72,6 +76,7 @@
 <!-- ######################################################################  -->
 <!--                           Static Links                                  -->
 <!-- ######################################################################  -->
+
       <h4 class="navleft"><a href="https://github.com/{{ site.github_organisation }}/">{{ site.label }} Repositories</a></h4>
 
 </div>
