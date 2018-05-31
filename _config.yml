@@ -17,7 +17,7 @@ navigation_static_links:
     url: "http://ga4gh-cp.github.io"
     label: "GA4GH::CP"
   ga4gh-duo:
-    url: "http://ga4gh-gks.github.io"
+    url: "http://ga4gh-duo.github.io"
     label: "GA4GH::DUO"
   ga4gh-gks:
     url: "http://ga4gh-gks.github.io"
@@ -34,6 +34,6 @@ navigation_static_links:
   ga4gh-github:
     url: "https://github.com/ga4gh/"
     label: "GA4GH Github Projects"
-navigation_max_items: 5
+navigation_max_items: 4
 tag_title_prefix: ''
 tag_title_suffix: ''
