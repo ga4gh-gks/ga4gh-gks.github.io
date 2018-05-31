@@ -1,6 +1,8 @@
 title: GA4GH - Genomic Knowledge Standards
 label: GA4GH::GKS
 github_organisation: ga4gh-gks
+show_downloads: true
+markdown: kramdown
 future: true
 navigation_categories:
   variant_annotation: Variant Annotation
@@ -11,6 +13,12 @@ navigation_static_links:
   ga4gh:
     url: "http://ga4gh.org"
     label: "GA4GH Main Site"
+  ga4gh-cp:
+    url: "http://ga4gh-cp.github.io"
+    label: "GA4GH::CP"
+  ga4gh-duo:
+    url: "http://ga4gh-gks.github.io"
+    label: "GA4GH::DUO"
   ga4gh-gks:
     url: "http://ga4gh-gks.github.io"
     label: "GA4GH::GKS"
@@ -27,3 +35,5 @@ navigation_static_links:
     url: "https://github.com/ga4gh/"
     label: "GA4GH Github Projects"
 navigation_max_items: 5
+tag_title_prefix: ''
+tag_title_suffix: ''

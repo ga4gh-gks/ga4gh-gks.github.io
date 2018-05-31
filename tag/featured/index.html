@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en" }}">
+<html lang="en">
 <head>
 
   <meta charset="utf-8">
@@ -19,8 +19,8 @@
   <div class="wrapper">
     <header id="header">
 
-      <h2><a href="{{ site.github.url | default: "/index.html" }}">{{ site.label }}</a></h2>
-      <div style="">{{ site.description | default: site.github.project_tagline }}</div>
+      <h2><a href="/index.html">GA4GH::GKS</a></h2>
+      <div style=""></div>
 
   <div class="navboxleft">
 
@@ -29,44 +29,34 @@
 <!-- ######################################################################  -->
 
 <!-- fallback nav_itemno declaration -->
-{% assign nav_itemno = 5 %}
-{% if site.navigation_max_items %}
-  {% assign nav_itemno = site.navigation_max_items %}
-{% endif %}
 
-{% for this_category in site.navigation_categories %}
-  {% assign cat_label = this_category[1] %}
-  {% assign cat_key = this_category[0] %}
-      <h4><a href="/{{ cat_key }}.html">{{ cat_label }}</a></h4>
+
+
+
+  
+  
+      <h4><a href="/variant_annotation.html">Variant Annotation</a></h4>
 <!-- posts are listed if same category as current page -->
-  {% if page.category contains cat_key %}
-    {% assign cat_posts = site.posts | where: 'category', cat_key %}
-    {% for post in cat_posts %}
-<!-- first sticky/featured posts -->
-      {% if post.tags contains 'featured' or post.tags contains 'sticky' %} 
-      <div class="sublink" >
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </div>
-<!-- those are subtracted from the nav_itemno count ... -->
-        {% assign nav_itemno = nav_itemno | minus: 1 %}     
-      {% endif %}
-    {% endfor %}
-    {% for post in cat_posts limit: nav_itemno %}
-<!-- others than the sticky/featured posts -->
-      {% unless post.tags contains 'featured' or post.tags contains 'sticky' %} 
-     <div class="sublink" >
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </div>
-      {% endunless %}
-    {% endfor %}
-<!-- link to the category collecting page, if more -->
-    {% if cat_posts.size > nav_itemno %}
-      <div class="sublink" >
-        <a href="/{{ cat_key }}.html">all ...</a>
-      </div>
-    {% endif %}
-  {% endif %}
-{% endfor %}
+  
+
+  
+  
+      <h4><a href="/variant_representation.html">Variant Representation</a></h4>
+<!-- posts are listed if same category as current page -->
+  
+
+  
+  
+      <h4><a href="/news.html">News</a></h4>
+<!-- posts are listed if same category as current page -->
+  
+
+  
+  
+      <h4><a href="/howto.html">Examples & Guides</a></h4>
+<!-- posts are listed if same category as current page -->
+  
+
 
 <!-- ######################################################################  -->
 <!--         navigation_categories from _config.yaml                         -->
@@ -76,7 +66,7 @@
 <!--                           Static Links                                  -->
 <!-- ######################################################################  -->
 
-      <h4 class="navleft"><a href="https://github.com/{{ site.github_organisation }}/">{{ site.label }} Repositories</a></h4>
+      <h4 class="navleft"><a href="https://github.com/ga4gh-gks/">GA4GH::GKS Repositories</a></h4>
 
 </div>
 
@@ -84,12 +74,44 @@
 
       <h4 class="navleft">Related Sites</h4>
 
-{% for this_static in site.navigation_static_links %}
-  {% if this_static[1].label != site.label %}
+
+  
       <div class="sublink">
-      <a href="{{ this_static[1].url }}">{{ this_static[1].label }}</a></div>
-  {% endif %}
-{% endfor %}
+      <a href="http://ga4gh.org">GA4GH Main Site</a></div>
+  
+
+  
+      <div class="sublink">
+      <a href="http://ga4gh-cp.github.io">GA4GH::CP</a></div>
+  
+
+  
+      <div class="sublink">
+      <a href="http://ga4gh-gks.github.io">GA4GH::DUO</a></div>
+  
+
+  
+
+  
+      <div class="sublink">
+      <a href="http://ga4gh-metadata.github.io">GA4GH::Metadata</a></div>
+  
+
+  
+      <div class="sublink">
+      <a href="https://github.com/ga4gh/large-scale-genomics-wiki/wiki/">GA4GH Large Scale Genomics</a></div>
+  
+
+  
+      <div class="sublink">
+      <a href="https://github.com/phenopackets">Phenopackets PXF</a></div>
+  
+
+  
+      <div class="sublink">
+      <a href="https://github.com/ga4gh/">GA4GH Github Projects</a></div>
+  
+
 
 </div>
 
@@ -101,12 +123,16 @@
 
   <div class="navboxleft" style="text-align:center;">
 
-{% assign tags = site.tags | sort %}
-{% for tag in tags %}
+
+
     <div class="site-tag">
-      <a href="/tag/{{ tag | first }}/index.html" style="font-size: {{ tag | last | size | times: 2 | plus: 60 }}%">{{ tag[0] | replace: "--", "::" }}</a>
+      <a href="/tag/featured/index.html" style="font-size: 64%">featured</a>
     </div>
-{% endfor %}
+
+    <div class="site-tag">
+      <a href="/tag/minutes/index.html" style="font-size: 100%">minutes</a>
+    </div>
+
 <!-- collection tags are not auto generated -->
   </div>
 
@@ -117,9 +143,11 @@
 <!-- ######################################################################  -->
 
     <div class="navboxleft">
+
       <div class="header_sublink" style="margin-left: 0px; margin-top: 10px; color: #ccc; ">
-        <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" style="text-decoration: none; color: #ccc;">Edit this page</a>
+        <a href="/blob/master/tag/featured/index.html" style="text-decoration: none; color: #ccc;">Edit this page</a>
       </div>
+
     </div>
 
 <!-- ######################################################################  -->
@@ -130,12 +158,141 @@
 
   <section>
 
-{{ content }}
+<h2 class="post_title">featured</h2>
+
+
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+    
+
+<div class="excerpt">
+      <h2 id="ga4ghgks-variant-representation-minutes-archive">GA4GH::GKS Variant Representation Minutes Archive</h2>
+
+
+<p>
+      
+      
+        2018-04-20:
+      
+<a href="/variant_representation_minutes.html">more ...</a>
+</p>
+</div>
+    
+  
+
+  
+    
+
+<div class="excerpt">
+      <h2 id="ga4ghgks-variant-annotation-minutes-archive">GA4GH::GKS Variant Annotation Minutes Archive</h2>
+
+
+<p>
+      
+      
+        2018-04-20:
+      
+<a href="/variant_annotation_minutes.html">more ...</a>
+</p>
+</div>
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
 
     </section>
 
     <footer>
-      <a href="{{ site.site_parent_link }}"><img style="margin-bottom: 25px; float: left;" src="{{ "/assets/img/site-logo.png" }}" /></a>
+      <a href=""><img style="margin-bottom: 25px; float: left;" src="/assets/img/site-logo.png" /></a>
       
     <div style="display: block; margin-left: auto; margin-right: auto; margin-bottom: -50px;" class="tiny">Theme by <a href="https://github.com/mbaudis">mbaudis</a> based on "minimal" by <a href="https://github.com/orderedlist">orderedlist</a>
     </div>
@@ -147,18 +304,9 @@
 
 <!-- ######################################################################  -->
 
-  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  <script src="/assets/js/scale.fix.js"></script>
 
-{% if site.google_analytics %}
-  <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-  {% endif %}
+
 
 </body>
 </html>

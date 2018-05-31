@@ -4,6 +4,8 @@ layout: default
 date: 2018-04-23
 category:
   - howto
+tags:
+  - site
 ---
 
 ## GA4GH::GKS Site Structure

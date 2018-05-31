@@ -5,6 +5,8 @@ permalink: /howto/markdown_jekyll.html
 date: 2018-04-20
 category:
   - howto
+tags:
+  - site
 ---
 
 ## Editing on GitHub Pages

@@ -56,6 +56,22 @@ section div.excerpt {
   border: 1px solid #e5e5e5;
 }
 
+.site-tag a {
+  display: inline-block;
+  color: #e63;
+}
+
+.site-tag {
+  display: inline-block;
+  clear: none;
+  padding: 1px 5px 2px 5px;
+  margin: 1px;
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+}
+
+
 .tiny { font-size: 9px; color: #ccc; }
 .tiny a  { color: #cde;  }
 .tiny a:hover { color: #cdf; }

@@ -4,18 +4,20 @@ layout: default
 permalink: /variant_annotation.html
 category:
   - variant_annotation
+tags:
+  - contact
 ---
 
-# GA4GH::GKS Variant Annotation
+## GA4GH::GKS Variant Annotation
 
 The Variant Annotation group aims to develop a common data model to represent annotations made on genomic variants, and the evidence and provenance that underlie these annotations. The model will support a wide variety of variant annotations, including causal association to disease/phenotype and interpretations of clinical relevance and actionability, and will support existing clinical lab standards such as the ACMG/AMP variant interpretation guidelines.
 
-## Leads
+### Leads
 
 * Matt Brush
 * Javier Lopez
 
-## Meetings
+### Meetings
 
 Generally every Wednesday at 8am PST, 11am EST, 4pm GMT. Check the [calendar for updates](https://calendar.google.com/calendar/b/1?cid=Z2Vub21pY3NhbmRoZWFsdGgub3JnX2trZTc4cnBuZms0dGszdmNyam8wODUxcHEwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
@@ -31,11 +33,11 @@ Conference calls are held remotely via Zoom Teleconferencing and can be joined u
   * International #s [https://zoom.us/zoomconference](https://zoom.us/zoomconference)
   * Meeting ID: 708 294 3722
 
-## Email Lists
+### Email Lists
 
 You can contact the variant annotation group using [our Google Group](https://groups.google.com/a/ga4gh.org/d/forum/ga4gh-variant-annotation).
 
-## Documents
+### Documents
 
 | Document Name | Purpose |
 |----------------|-----------|
@@ -48,7 +50,7 @@ You can contact the variant annotation group using [our Google Group](https://gr
 
 ---
 
-## Related Posts
+### Related Posts
 
 {% for item in site.categories.variant_annotation %}
   {% unless item.tags contains 'minutes' %}
