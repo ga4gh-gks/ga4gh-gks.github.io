@@ -41,6 +41,8 @@ You can contact the variant annotation group using [our Google Group](https://gr
 
 | Document Name | Purpose |
 |----------------|-----------|
+| [Modeling Requirements](https://docs.google.com/document/d/1J4AqGDEqyK8KAzfiowgHYKJNvzHuwHSHgkN9dleLemY/edit ) | Sinthesises requirements collected in the [examples catalog](https://docs.google.com/document/d/1WbW2ts7qX3ONJNj22BlcW4KqfxcPdLsUcnlua4SSZCc/edit#heading=h.2vdmnz5qmyln ) |
+| [Examples catalog](https://docs.google.com/document/d/1WbW2ts7qX3ONJNj22BlcW4KqfxcPdLsUcnlua4SSZCc/edit#heading=h.2vdmnz5qmyln ) | A collection of variant annotation examples which implicitly define DPs requirements |
 | [Roadmap](https://docs.google.com/document/d/1Hu1t_JPtm1T12M5iJVPsZxDvE-OJp-munyWh-S7vu68/edit ) | Details our future goals and timelines |
 | [Landscape Analysis](https://docs.google.com/spreadsheets/d/1BV0BuvdkobVAi3YLCzqUUqBGT-wM2jPfLvVQAF5IQcc/edit#gid=1171477640) | Known resources, data models, curation frameworks, applications and enums pertaining to variation annotation |
 | [Variant Annotation Definition and Categories](https://docs.google.com/document/d/1csUrC4kX6G1V1GIz07btQQ3oL_cdDPJShuauL_uCjEw/edit) | Defining what is variant annotation with respect to this workstream |
