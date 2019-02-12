@@ -41,6 +41,7 @@ You can contact the variant annotation group using [our Google Group](https://gr
 
 | Document Name | Purpose |
 |----------------|-----------|
+| [Informal models](https://docs.google.com/spreadsheets/d/1zQU-Yv7gB7IHKIOVsTh-74BwdtgB9KQpKcWkSHZOa-Q/edit#gid=89319287) | Shared spreadsheet defines core model attributes |
 | [Modeling Requirements](https://docs.google.com/document/d/1J4AqGDEqyK8KAzfiowgHYKJNvzHuwHSHgkN9dleLemY/edit ) | Sinthesises requirements collected in the [examples catalog](https://docs.google.com/document/d/1WbW2ts7qX3ONJNj22BlcW4KqfxcPdLsUcnlua4SSZCc/edit#heading=h.2vdmnz5qmyln ) |
 | [Examples catalog](https://docs.google.com/document/d/1WbW2ts7qX3ONJNj22BlcW4KqfxcPdLsUcnlua4SSZCc/edit#heading=h.2vdmnz5qmyln ) | A collection of variant annotation examples which implicitly define DPs requirements |
 | [Roadmap](https://docs.google.com/document/d/1Hu1t_JPtm1T12M5iJVPsZxDvE-OJp-munyWh-S7vu68/edit ) | Details our future goals and timelines |
