@@ -12,7 +12,8 @@ The Variant Representation group aims to develop a computational data model and 
 ## Leads
 
 * Larry Babb
-* Michael Baudis
+* Alex Wagner
+* Reece Hart
 
 ## Meetings
 

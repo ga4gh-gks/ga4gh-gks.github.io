@@ -21,6 +21,7 @@ _Standardised extensible model for computational variant representation_
 Leads:
 - [Larry Babb](https://www.clinicalgenome.org/about/people/staff/larry-babb/)
 - [Alex Wagner](http://alexwagner.info)
+- [Reece Hart](https://www.linkedin.com/in/reece)
 
 ### [Variant Annotation](./variant_annotation.html)
 
