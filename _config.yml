@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Develops, adopts, and adapts standards-based components to enable the 
   exchange of reference genomic information through common APIs, 
   thereby enabling the downstream analysis of genomic data.
-baseurl: "/gks-tmpsite" # the subpath of your site, e.g. /blog
-url: "https://andrewyatz.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ga4gh-gks.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
