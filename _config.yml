@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -19,10 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Genomic Knowledge Standards
-email: reggan.thomas@ga4gh.org
+email: beatrice.amos@ga4gh.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Develops, adopts, and adapts standards-based components to enable the 
-  exchange of reference genomic information through common APIs, 
+  Develops, adopts, and adapts standards-based components to enable the
+  exchange of reference genomic information through common APIs,
   thereby enabling the downstream analysis of genomic data.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ga4gh-gks.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
