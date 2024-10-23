@@ -11,9 +11,10 @@ The "Genomic Knowledge Standards" (GKS) work stream is one of the elements of th
 
 The current focus of GKS lies in the evaluation and definitions of forward-looking formats and implementations for representation and annotation of genomic variants.
 
-### Work Stream Leads:
-- [Bob Freimuth](http://www.mayo.edu/research/faculty/freimuth-robert-r-ph-d/bio-00027248)
-- [Andy Yates](https://www.ebi.ac.uk/about/people/andy-yates)
+### Work Stream Leads
+
+- [Melissa Cline](https://www.linkedin.com/in/melissa-cline-6014b1/)
+- [Alex Wagner](https://genomic.social/@a)
 
 ## Projects
 
@@ -24,9 +25,9 @@ _Standardised extensible model for computational variant representation_
 [VRS GitHub Repo](https://github.com/ga4gh/vrs)
 
 Leads:
+
 - [Larry Babb](https://www.clinicalgenome.org/about/people/staff/larry-babb/)
-- <a rel="me" href="https://genomic.social/@a">Alex Wagner</a>
-- [Andreas Prlić](http://www.spice-3d.org/)
+- [Alex Wagner](https://genomic.social/@a)
 
 ### Variant Annotation
 
@@ -35,17 +36,32 @@ _Structured data objects holding a central piece of knowledge (a 'Statement') ab
 [VA GitHub Repo](https://github.com/ga4gh/va-spec)
 
 Leads:
+
 - [Matt Brush](http://www.ohsu.edu/xd/education/library/about/staff-directory/matthew-brush.cfm)
 - Javier Lopez
 
-### Sequence annotation
+### Sequence Annotation
 
 _Modelling genomic and sequence annotations pertinent to variation interepretation_
 
+[SA GitHub Repo](https://github.com/ga4gh/sa-spec)
+
 Leads:
+
 - [Karen Eilbeck](https://bioscience.utah.edu/faculty/eilbeck/)
 - [Sean Upchurch](https://directory.caltech.edu/personnel/sau)
 - [Evan Christensen](https://faculty.utah.edu/u6007369-EVAN_GABRIEL_CHRISTENSEN/research/index.hml)
 
+### Categorical Variation
+
+_Modelling categorical variants in genomic knowledgebases_
+
+[Cat-VRS GitHub Repo](https://github.com/ga4gh/cat-vrs)
+
+Leads:
+
+- [Daniel Puthawala](https://www.linkedin.com/in/daniel-puthawala-a49aab74/)
+
 ## Technical Programme Manager
-- Reggan Thomas
+
+- Beatrice Amos
